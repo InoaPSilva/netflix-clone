@@ -1,0 +1,20 @@
+@media screen and (max-width:500px) {
+    
+    header .container{
+        display:flex;
+        flex-direction: column;   
+    }
+    .container img{
+        width: 50%;
+    }
+    .btn{
+        margin-top: 5px;
+        width: 300px;
+    }
+} 
+
+@media screen and (min-width:1000px) {
+    #desc{
+        width: 50%;
+    }
+}
