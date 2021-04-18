@@ -13,7 +13,6 @@
 
 body{
     background-color: var(--black);
-    font-family: 'Times New Roman', Times, serif;
     color: white;
 }
 header nav{
@@ -21,6 +20,7 @@ header nav{
     flex-direction: row;
     align-items: center;
     margin-right: 30px;
+    justify-content: space-between;
 }
 
 
@@ -31,24 +31,16 @@ header .logo{
     font-size: 33px;
     margin-right: 20px;
 }
-#navigation{
-    padding-right: 65%;
-}
-.search-icon{
-    color: white;
-}
-.search-btn{
-    border: none;
-    background-color: transparent;
-}
 header #navigation a{
     text-decoration: none;
-    color: #AAA;
-    margin: 5px;
+    color: rgb(225, 224, 224);
+    margin: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
 }
 
 header #navigation a:hover{
-    color:#fff;
+    color: #FFF;
 }
 
 .container{
@@ -58,9 +50,10 @@ header #navigation a:hover{
 .banner{
     font-size: 18px;
     background: linear-gradient(to left,rgba(0, 0, 0, .40), rgba(0, 0, 0, .75)),
-    url('../img/Drive_Banner.jpg') no-repeat;
+    url('../img/Zelda.jpg') no-repeat;
     
     background-size: cover;
+    background-position: 0px;
     height: 450px;
 
     display: flex;
@@ -102,6 +95,7 @@ header #navigation a:hover{
 }
 /* Banner related end */
 .box-film{
+    margin-top: 10px;
     height: 50%;
     width: 50%;
     display: block;
